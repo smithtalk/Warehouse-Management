@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Global Selector */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Pure me */
+.body-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.right-form {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-r-f {
+  flex-direction: column;
+}
+
+.index-r-f .gg-box {
+  width: 200px;
+  height: 200px;
+}
+
+/* Replace Bulma Selector */
+
+.navbar {
+  box-shadow: 2px 1px 30px rgba(100, 100, 100, 0.2);
+}
